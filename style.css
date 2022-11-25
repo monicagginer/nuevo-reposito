@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/globos4.jpg);
+  background-image: cover;
+  
+}
+header {
+  background-color: coral;
+  text-align: center;
+  font-family: cursive;
+  color: blue;
+}
+
+
+h2{
+    color: cyan;
+}
+main{
+  display: flex;      
+}
+
+div.tarjeta-principal{
+  text-align: center;
+  padding: 30px;
+  font-size: large;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.200);  
+  height: 600px;
+}
+
+footer{
+  display: flex;
+  align-content: space-between;
+  height: 60px;
+  font-size: 30px;
+  font-family: sans-serif;
+  background-color: darkgray;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* para el contenedor */
+div.iconos-social{
+  width: auto;
+  flex:1;
+}
+/* para las imagenes */
+img.iconos-footer {
+  width: 40px;
+
+
+}
+
