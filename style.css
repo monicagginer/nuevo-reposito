@@ -9,15 +9,15 @@ body {
   
 }
 header {
-  background-color: coral;
+  background-color: #ee9999;
   text-align: center;
   font-family: cursive;
-  color: blue;
+  color: #F2E8DF;
 }
 
 
 h2{
-    color: cyan;
+    color:  #F2E8DF;
 }
 main{
   display: flex;      
@@ -28,7 +28,7 @@ div.tarjeta-principal{
   padding: 30px;
   font-size: large;
   font-family: sans-serif;
-  background-color: rgba(0, 0, 0, 0.200);  
+  background-color: rgba(0, 0, 0, 0.02);  
   height: 600px;
 }
 
@@ -38,7 +38,7 @@ footer{
   height: 60px;
   font-size: 30px;
   font-family: sans-serif;
-  background-color: darkgray;
+  background-color: #F2E8DF;
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
@@ -51,7 +51,7 @@ div.iconos-social{
 /* para las imagenes */
 img.iconos-footer {
   width: 40px;
-
-
+ }
+div.datos-footer {
+  color: #86A69D;
 }
-
